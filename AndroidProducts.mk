@@ -17,4 +17,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/omni_P633S07.mk
+    $(LOCAL_DIR)/omni_P633S07.mk
+
+COMMON_LUNCH_CHOICES := \
+    omni_P633S07-user \
+    omni_P633S07-userdebug \
+    omni_P633S07-eng
