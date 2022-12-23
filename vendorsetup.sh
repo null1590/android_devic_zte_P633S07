@@ -16,5 +16,6 @@
 # limitations under the License.
 #
 
+add_lunch_combo omni_P633S07-user
 add_lunch_combo omni_P633S07-userdebug
 add_lunch_combo omni_P633S07-eng
