@@ -28,7 +28,7 @@ $(call inherit-product, device/zte/P633S07/device.mk)
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := P633S07
 PRODUCT_NAME := omni_P633S07
-PRODUCT_BRAND := zte
-PRODUCT_MODEL := zte
+PRODUCT_BRAND := ZTE
+PRODUCT_MODEL := ZTE
 PRODUCT_MANUFACTURER := zte
-PRODUCT_RELEASE_NAME := zte zte
+PRODUCT_RELEASE_NAME := ZTE ZTE
