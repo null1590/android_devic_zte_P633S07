@@ -31,21 +31,21 @@ ENABLE_VIRTUAL_AB := true
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 
 # A/B
-   AB_OTA_UPDATER := true
-   AB_OTA_PARTITIONS += \
-   boot \
-   system \
-   product \
-   dtbo \
-   vbmeta \
-   vbmeta_system \
-   vendor
+    AB_OTA_UPDATER := true
+    AB_OTA_PARTITIONS += \
+    boot \
+    system \
+    product \
+    dtbo \
+    vbmeta \
+    vbmeta_system \
+    vendor
 
 RODUCT_PACKAGES += \
-   otapreopt_script \
-   update_engine \
-   update_engine_sideload \
-   update_verifier
+    otapreopt_script \
+    update_engine \
+    update_engine_sideload \
+    update_verifier
 
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system = true \
